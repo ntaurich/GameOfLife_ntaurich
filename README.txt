@@ -81,11 +81,8 @@ Function print_array() prints out the array. If the value is 0, prints a space. 
  */
 Function compare_array() compares to arrays by comparing each cell one at a time. If one pair of cells are different exits the loop and returns that they are different.
 
-
-DIFFICULTIES:
-I had trouble creating a doxygen file, but I included all the comments.
-
-
-
+DOCUMENTATION
+to see documentation use this link
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/ntaurich/GameOfLife_ntaurich/master/src/html/files.html
 
 
