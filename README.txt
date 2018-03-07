@@ -1,9 +1,10 @@
 /* 
-Explaination:
-the game is played on a rectangular grid of cells, so hat each cell has eight neighbors
+Explanation:
+the game is played on a rectangular grid of cells, so that each cell has eight neighbors
 (adjacent cells). Each cell is either occupied by an organism or not. A pattern of 
-occupied and unoccupied cells in a grid is called a generation. THe rules for deriving
+occupied and unoccupied cells in a grid is called a generation. The rules for deriving
 a new generation from the previous generation are these:
+
 1.Death. If an occupied cell has 0, 1, 4, 5, 6, 7, or 8 occupied neighbors, the organism dies
 (0 or 1 of loneliness; 4 thru 8 of overcrowding).
 
