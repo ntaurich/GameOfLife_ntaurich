@@ -1,3 +1,18 @@
+/* the game is played on a rectangular grid of cells, so hat each cell has eight neighbors
+(adjacent cells). Each cell is either occupied by an organism or not. A pattern of 
+occupied and unoccupied cells in a grid is called a generation. THe rules for deriving
+a new generation from the previous generation are these:
+1.Death. If an occupied cell has 0, 1, 4, 5, 6, 7, or 8 occupied neighbors, the organism dies
+(0 or 1 of loneliness; 4 thru 8 of overcrowding).
+
+2. survival. if an occupied cell has two or three neighbors, the organism survives to
+the next generation
+
+3. birth. if an unoccupied cell has precisely three occupied neighbors, it becomes occupied
+by a new organism
+
+/*
+
 /** Main function.
  * @param argc Number of words on the command line.
  * @param argv Array of pointers to character strings containing the
